@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"> 
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Roboto';
+  background-color: #fefefe;
+  border-radius: 10px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 8px 10px 8px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  text-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  font-style: italic;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+}
+
+
+/* Magic Stuff End -> */
+</style>
+
+</head>
+<body>
+<br><br><br>
+<div class="card">
+  <img src="https://avatars0.githubusercontent.com/u/33284223?s=400&u=79f587edd5e8b1ee229d8188f4364e839b57d758&v=4" alt="John" style="width:100%;">
+  <h1>Yosteven</h1>
+  <p class="title">Fullstack & Mobile Developer</p>
+  <p>Alumni Binus University</p>
+  <div style="padding: 8px 0px 18px 0px;">
+    <a class="btn btn-1">See more</a> 
+  </div>
+</div>
+
+</body>
+</html>
